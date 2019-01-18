@@ -1,0 +1,65 @@
+:root{
+    --color: red;
+
+    --dim-fermate-wid: 200px;
+    --dim-fermate-hei: 200px;
+    --top-fermate-dim: 200px;
+}
+
+#titolo
+{
+    margin-left: 50px;
+}
+
+#container{
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 14%;
+    text-align: center;
+}
+.element{
+    margin-top: -20px;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    color: white;
+    font-weight: 1000;
+}
+
+.txt{
+    margin-top: -20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--color);
+}
+#myDIV {
+    position: absolute; 
+    height: var(--dim-fermate-hei);
+    overflow: auto;
+    left: 0;    
+  }
+  
+  #content {
+    padding-top: 30px;
+    height: 700px;
+    width: var(--dim-fermate-wid);
+  }
+
+  #return{
+    position: relative;
+    transform: rotate(180deg);
+    filter: invert(100%);
+    width: 40px;
+    left:10px;
+}
+#return:hover{
+    cursor: pointer;
+}
+#number{
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+#colore{
+    background-color: rgb(83,115,255);
+}

@@ -1,0 +1,28 @@
+:root{
+    --width-circle: 30px;
+    --margin-left: 0px;
+    --padding-px: 40px;
+    --color: #aaa;
+    --margin-top: 0px;
+}
+
+#link{
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    width: var(--width-circle);
+    margin-left: var(--margin-left);
+    margin-top: var(--margin-top);
+}
+
+.paragraph{
+    width: var(--width-circle);
+    margin-left: var(--margin-left);
+    margin-top: var(--margin-top);
+    padding: var(--padding-px);
+    color: white;
+    font-size: 30px;
+    border-radius: 999px;
+    background-color: var(--color);
+}
+

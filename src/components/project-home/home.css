@@ -1,0 +1,87 @@
+:root{
+    --top-distance: 80px;
+}
+
+#header{
+    background-color: rgb(83, 115, 255);
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.button{
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 13%;
+    width: 70%;  
+
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    color: rgb(109, 109, 109);
+    text-transform: uppercase;   
+
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(136, 136, 136);     
+}
+.button:hover{
+    font-size: 24px;
+    font-weight: 700;
+    border-width: 2px;
+}
+
+#btn1{
+    top:0;
+}
+
+#btn2{
+    top:calc(var(--top-distance)*1);
+}
+
+#btn3{
+    top:calc(var(--top-distance)*2); 
+}
+
+#btn4{
+    top:calc(var(--top-distance)*3);     
+}
+
+#btn5{
+    top:calc(var(--top-distance)*4);     
+}
+
+#btn6{
+    top:calc(var(--top-distance)*5);     
+}
+#btn7{
+    top:calc(var(--top-distance)*6);     
+}
+#btn8{
+    top:calc(var(--top-distance)*7);     
+}
+
+@media only screen and (max-width: 460px) {
+    .button{
+        font-size: 15px;
+    }
+    .button:hover{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .button{
+        margin-left: 10%;
+    }
+}
+
+#number{
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+#colore{
+    background-color: rgb(83,115,255);
+}
